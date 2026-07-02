@@ -1,0 +1,19 @@
+{
+  "name": "ARAH",
+  "equity": 3000.0,
+  "initial": 3000.0,
+  "pnl_usd": 0.0,
+  "pnl_pct": 0.0,
+  "allocation_pct": {
+    "USDT": 100
+  },
+  "n_trades": 0,
+  "bar_date": "2026-07-01",
+  "updated_at": "2026-07-02T20:58:50.742732+00:00",
+  "history": [
+    {
+      "date": "2026-07-01",
+      "equity": 3000.0
+    }
+  ]
+}
