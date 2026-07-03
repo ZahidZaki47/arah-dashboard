@@ -4,12 +4,19 @@
   "initial": 3000.0,
   "pnl_usd": 0.0,
   "pnl_pct": 0.0,
+  "cash_usd": 3000.0,
+  "holdings": {},
+  "mode": "PERTAHANAN",
+  "held_asset": null,
+  "held_since": null,
+  "entry_price": null,
   "allocation_pct": {
     "USDT": 100
   },
   "n_trades": 0,
+  "last_trade": null,
   "bar_date": "2026-07-02",
-  "updated_at": "2026-07-03T04:08:13.018380+00:00",
+  "updated_at": "2026-07-03T11:16:55.136213+00:00",
   "history": [
     {
       "date": "2026-07-01",
