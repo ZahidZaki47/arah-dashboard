@@ -226,13 +226,22 @@ function render(){
 }
 
 async function loadState(){
-  try{
-    const r = await fetch("./arah_state.json?t=" + Date.now());
-    state = await r.json();
-    render();
-  }catch(e){
-    document.getElementById("pnl").textContent = "Gagal memuatkan state";
+  // raw.githubusercontent = data terkini serta-merta selepas commit,
+  // tidak bergantung pada Pages build; fallback ke fail Pages tempatan.
+  const sources = [
+    "https://raw.githubusercontent.com/ZahidZaki47/arah-dashboard/main/arah_state.json",
+    "./arah_state.json",
+  ];
+  for (const src of sources){
+    try{
+      const r = await fetch(src + "?t=" + Date.now(), {cache:"no-store"});
+      if (!r.ok) continue;
+      state = await r.json();
+      render();
+      return;
+    }catch(e){ /* cuba sumber seterusnya */ }
   }
+  document.getElementById("pnl").textContent = "Gagal memuatkan state";
 }
 
 // ── Binance WebSocket: harga real-time ──
