@@ -173,9 +173,9 @@ function render(){
   }
 
   document.getElementById("status").innerHTML = state.mode === "AKTIF"
-    ? `Memegang <b>${state.held_asset}</b> — penilaian semula automatik setiap hari`
+    ? `Memegang <b>${state.held_asset}</b> — laras risiko harian; rotasi awal bulan`
     : `&#9203; Mod pertahanan — semua aset tidak layak buat masa ini.<br>
-       <span class="dim">Penilaian semula automatik setiap hari; rotasi penuh awal bulan.</span>`;
+       <span class="dim">Kekal tunai sehingga rotasi awal bulan berikutnya.</span>`;
 
   let pos = "";
   if (state.mode === "AKTIF" && state.entry_price){
