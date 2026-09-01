@@ -1,23 +1,38 @@
 {
   "name": "ARAH",
-  "equity": 3000.0,
+  "equity": 2998.75,
   "initial": 3000.0,
-  "pnl_usd": 0.0,
-  "pnl_pct": 0.0,
-  "cash_usd": 3000.0,
-  "holdings": {},
-  "positions": {},
-  "mode": "PERTAHANAN",
-  "held_asset": null,
-  "held_since": null,
-  "entry_price": null,
-  "allocation_pct": {
-    "USDT": 100
+  "pnl_usd": -1.25,
+  "pnl_pct": -0.04,
+  "cash_usd": 2166.3,
+  "holdings": {
+    "ETHUSDT": 0.33734502
   },
-  "n_trades": 0,
-  "last_trade": null,
-  "bar_date": "2026-08-30",
-  "updated_at": "2026-08-31T05:27:51.311382+00:00",
+  "positions": {
+    "ETH": {
+      "qty": 0.33734502,
+      "avg_cost": 2471.357,
+      "since": "2026-09-01T05:02:08.633059+00:00"
+    }
+  },
+  "mode": "AKTIF",
+  "held_asset": "ETH",
+  "held_since": "2026-09-01T05:02:08.633059+00:00",
+  "entry_price": 2467.65,
+  "allocation_pct": {
+    "ETH": 27.8,
+    "USDT": 72.2
+  },
+  "n_trades": 1,
+  "last_trade": {
+    "time": "2026-09-01T05:02:08.633059+00:00",
+    "side": "BELI",
+    "symbol": "ETH",
+    "notional": 832.45,
+    "price": 2467.65
+  },
+  "bar_date": "2026-08-31",
+  "updated_at": "2026-09-01T05:02:10.334096+00:00",
   "history": [
     {
       "date": "2026-07-01",
@@ -262,6 +277,10 @@
     {
       "date": "2026-08-30",
       "equity": 3000.0
+    },
+    {
+      "date": "2026-08-31",
+      "equity": 2998.75
     }
   ]
 }
