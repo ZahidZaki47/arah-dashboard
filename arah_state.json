@@ -1,9 +1,9 @@
 {
   "name": "ARAH",
-  "equity": 2998.91,
+  "equity": 2988.84,
   "initial": 3000.0,
-  "pnl_usd": -1.09,
-  "pnl_pct": -0.04,
+  "pnl_usd": -11.16,
+  "pnl_pct": -0.37,
   "cash_usd": 2166.3,
   "holdings": {
     "ETHUSDT": 0.33734502
@@ -20,8 +20,8 @@
   "held_since": "2026-09-01T05:02:08.633059+00:00",
   "entry_price": 2467.65,
   "allocation_pct": {
-    "ETH": 27.8,
-    "USDT": 72.2
+    "ETH": 27.5,
+    "USDT": 72.5
   },
   "n_trades": 1,
   "last_trade": {
@@ -31,8 +31,8 @@
     "notional": 832.45,
     "price": 2467.65
   },
-  "bar_date": "2026-09-09",
-  "updated_at": "2026-09-10T04:36:13.783601+00:00",
+  "bar_date": "2026-09-10",
+  "updated_at": "2026-09-11T04:33:22.009348+00:00",
   "history": [
     {
       "date": "2026-07-01",
@@ -317,6 +317,10 @@
     {
       "date": "2026-09-09",
       "equity": 2998.91
+    },
+    {
+      "date": "2026-09-10",
+      "equity": 2988.84
     }
   ]
 }
