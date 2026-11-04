@@ -1,38 +1,38 @@
 {
   "name": "ARAH",
-  "equity": 2779.95,
+  "equity": 2795.89,
   "initial": 3000.0,
-  "pnl_usd": -220.05,
-  "pnl_pct": -7.33,
-  "cash_usd": 849.22,
+  "pnl_usd": -204.11,
+  "pnl_pct": -6.8,
+  "cash_usd": 783.44,
   "holdings": {
-    "BTCUSDT": 0.02513459
+    "BTCUSDT": 0.0259826
   },
   "positions": {
     "BTC": {
-      "qty": 0.02513459,
-      "avg_cost": 77698.5679,
+      "qty": 0.0259826,
+      "avg_cost": 77694.3787,
       "since": "2026-11-01T05:55:57.215224+00:00"
     }
   },
   "mode": "AKTIF",
   "held_asset": "BTC",
-  "held_since": "2026-11-01T05:55:57.215224+00:00",
-  "entry_price": 77582.02,
+  "held_since": "2026-11-04T06:08:21.130289+00:00",
+  "entry_price": 77453.86,
   "allocation_pct": {
-    "BTC": 69.5,
-    "USDT": 30.5
+    "BTC": 72.0,
+    "USDT": 28.0
   },
-  "n_trades": 15,
+  "n_trades": 16,
   "last_trade": {
-    "time": "2026-11-03T06:41:13.057898+00:00",
-    "side": "JUAL",
+    "time": "2026-11-04T06:08:21.130289+00:00",
+    "side": "BELI",
     "symbol": "BTC",
-    "notional": 58.04,
-    "price": 76816.0
+    "notional": 65.68,
+    "price": 77453.86
   },
-  "bar_date": "2026-11-02",
-  "updated_at": "2026-11-03T06:41:15.015397+00:00",
+  "bar_date": "2026-11-03",
+  "updated_at": "2026-11-04T06:08:22.713663+00:00",
   "history": [
     {
       "date": "2026-07-01",
@@ -533,6 +533,10 @@
     {
       "date": "2026-11-02",
       "equity": 2779.95
+    },
+    {
+      "date": "2026-11-03",
+      "equity": 2795.89
     }
   ]
 }
